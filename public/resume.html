@@ -24,7 +24,7 @@
                 w.print();
                 w.close();
             }
-            
+
             jQuery(document).ready(function() {
                 jQuery("#header-content").load("header.html");
             });
@@ -44,13 +44,19 @@
                 </div>
             </header>
 
-        <!-- Main -->
+        <!-- Main 
         <div id="resume-body" class="print"></div>
 
         <div id="main2">
             <ul class="actions">
                 <li><a onClick="printDiv('resume-body')" class="button_dark">Print</a></li>
             </ul>
+        </div>
+        -->
+        <div id="main2">
+            <div class="pdf-container">
+                <embed src="QB_Resume_Long.pdf" width="800px" height="2100px" />
+            </div>
         </div>
 
         <!-- Footer -->
