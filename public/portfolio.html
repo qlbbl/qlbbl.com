@@ -49,6 +49,18 @@
 						<h2>Recent Work</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
+								<div id="gallery-Mt.Sac-WP_26" class="gallery-set">
+									<a href="data/portfolio/Mt.Sac-WP_26/01.jpg" class="image fit no-lightbox thumb">
+										<img src="data/portfolio/Mt.Sac-WP_26/thumbs/01.jpg" alt=""/>
+									</a>
+									<a href="data/portfolio/Mt.Sac-WP_26/02.jpg"><img src="data/portfolio/Mt.Sac-WP_26/thumbs/02.jpg" alt=""/></a>
+									<a href="data/portfolio/Mt.Sac-WP_26/03.jpg"><img src="data/portfolio/Mt.Sac-WP_26/thumbs/03.jpg" alt=""/></a>
+									<a href="data/portfolio/Mt.Sac-WP_26/04.jpg"><img src="data/portfolio/Mt.Sac-WP_26/thumbs/04.jpg" alt=""/></a>
+								</div>
+								<h3>WC vs Mt. Sac 09/11/26</h3>
+								<p>Canon R7</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
 								<div id="gallery-SCIAC_26" class="gallery-set">
 									<a href="data/portfolio/SCIAC_26/01.jpg" class="image fit no-lightbox thumb">
 										<img src="data/portfolio/SCIAC_26/thumbs/01.jpg" alt=""/>
@@ -328,7 +340,14 @@
 			<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.umd.min.js"></script>
 			<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
 			<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.umd.min.js"></script>
-			
+
+			<script>
+			lightGallery(document.getElementById('gallery-Mt.Sac-WP_26'), {
+				plugins: [lgZoom, lgThumbnail],
+				speed: 500,
+				download: false,
+			});
+			</script>
 			<script>
 			lightGallery(document.getElementById('gallery-SCIAC_26'), {
 				plugins: [lgZoom, lgThumbnail],
