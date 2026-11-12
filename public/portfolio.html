@@ -49,6 +49,21 @@
 						<h2>Recent Work</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
+								<div id="gallery-WSOC_UCSC_26" class="gallery-set">
+									<a href="data/portfolio/WSOC_UCSC_26/01.jpg" class="image fit no-lightbox thumb">
+										<img src="data/portfolio/WSOC_UCSC_26/thumbs/01.jpg" alt=""/>
+									</a>
+									<a href="data/portfolio/WSOC_UCSC_26/02.jpg"><img src="data/portfolio/WSOC_UCSC_26/thumbs/02.jpg" alt=""/></a>
+									<a href="data/portfolio/WSOC_UCSC_26/03.jpg"><img src="data/portfolio/WSOC_UCSC_26/thumbs/03.jpg" alt=""/></a>
+									<a href="data/portfolio/WSOC_UCSC_26/04.jpg"><img src="data/portfolio/WSOC_UCSC_26/thumbs/04.jpg" alt=""/></a>
+									<a href="data/portfolio/WSOC_UCSC_26/05.jpg"><img src="data/portfolio/WSOC_UCSC_26/thumbs/05.jpg" alt=""/></a>
+									<a href="data/portfolio/WSOC_UCSC_26/06.jpg"><img src="data/portfolio/WSOC_UCSC_26/thumbs/06.jpg" alt=""/></a>
+									<a href="data/portfolio/WSOC_UCSC_26/07.jpg"><img src="data/portfolio/WSOC_UCSC_26/thumbs/07.jpg" alt=""/></a>
+								</div>
+								<h3>WC Womens Soccer vs UCSC 10/25/26</h3>
+								<p>Canon R7</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
 								<div id="gallery-Mt.Sac-WP_26" class="gallery-set">
 									<a href="data/portfolio/Mt.Sac-WP_26/01.jpg" class="image fit no-lightbox thumb">
 										<img src="data/portfolio/Mt.Sac-WP_26/thumbs/01.jpg" alt=""/>
@@ -340,7 +355,14 @@
 			<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.umd.min.js"></script>
 			<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
 			<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.umd.min.js"></script>
-
+			
+			<script>
+			lightGallery(document.getElementById('gallery-WSOC_UCSC_26'), {
+				plugins: [lgZoom, lgThumbnail],
+				speed: 500,
+				download: false,
+			});
+			</script>
 			<script>
 			lightGallery(document.getElementById('gallery-Mt.Sac-WP_26'), {
 				plugins: [lgZoom, lgThumbnail],
